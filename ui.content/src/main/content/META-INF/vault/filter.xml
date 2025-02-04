@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/jassampleenvironment" mode="merge"/>
+    <filter root="/content/jassampleenvironment" mode="merge"/>
+    <filter root="/content/dam/jassampleenvironment" mode="merge">
+        <exclude pattern="/content/dam/jassampleenvironment(/.*)?"/>
+        <include pattern="/content/dam/jassampleenvironment/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/jassampleenvironment/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/jassampleenvironment" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/jassampleenvironment" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/jassampleenvironment" mode="merge"/>
+    <filter root="/content/dam/jassampleenvironment/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/jassampleenvironment/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/jassampleenvironment/wknd_logo.png" mode="merge"/>
+</workspaceFilter>

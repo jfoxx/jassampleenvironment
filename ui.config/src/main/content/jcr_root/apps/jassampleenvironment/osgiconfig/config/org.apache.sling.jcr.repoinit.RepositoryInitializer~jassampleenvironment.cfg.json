@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/jassampleenvironment",
+        "create path (nt:unstructured) /content/dam/jassampleenvironment/jcr:content",
+        "set properties on /content/dam/jassampleenvironment/jcr:content\n  set cq:conf{String} to /conf/jassampleenvironment\n  set jcr:title{String} to \"jassampleenvironment\"\nend"
+    ]
+}
